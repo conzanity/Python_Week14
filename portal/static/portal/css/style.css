@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #203040;
+    background: #f5f8fb;
+}
+
+header, footer {
+    background: #214d68;
+    color: white;
+    padding: 16px;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:focus-visible {
+    outline: 3px solid #ffdb70;
+    outline-offset: 2px;
+}
+
+main {
+    max-width: 900px;
+    margin: 32px auto;
+    padding: 16px;
+}
+
+@media (max-width: 600px) {
+    nav {
+        display: block;
+        margin: 12px 0 0;
+    }
+}
